@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('crop.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+
+    font-family: "Arial", Times, serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.recommended-crop {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(47, 45, 45);
+    margin-bottom: 20px;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 55px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0.5, 0.5, 0.5, 0.5);
+    box-shadow: 0 0 20px rgba(0.5, 0.5, 0.5, 0.5); 
+} */
+
+.additional-text-box {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.additional-footer-box{
+    max-width: 1300px;
+    margin-top: 0.5px;
+    padding: 0.09px;
+    background-color: black;
+    height: 50px;
+}
+
+.additional-footer-box p{
+    color: rgb(236, 238, 241);
+}
+
+.additional-text {
+    text-align: left;
+}
+
+.additional-text h3 {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.additional-text p {
+    color: #555555;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+footer p {
+    color: #484646;
+    font-size: 18px;
+}
+
+
+
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    display: inline-block;
+    width: 150px; /* Adjust the width of labels as needed */
+    text-align: right;
+    margin-right: 10px; /* Adjust margin between label and input */
+    font-weight: bold;
+    color: #524d4d;
+}
+
+.input-group input[type="number"] {
+    width: calc(100% - 160px); /* Adjust width of input fields */
+    padding: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+
+/* .input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.input-group input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+} */
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #41b247;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: "Arial", Times, serif;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #6fa771;
+}

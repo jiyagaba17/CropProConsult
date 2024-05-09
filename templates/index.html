@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropProConsult</title>
+</head>
+<body>
+    
+    <h1><b>CropProConsult</h1>
+    <p>Enter the details of the particular region below:</p>
+    <div class="form-container">
+    <form action="/recommendation" method="POST" >
+        <div class="input-group">
+            <label for="nitrogen">Nitrogen Level:</label>
+            <input type="number" step="0.01" id="nitrogen" name="nitrogen" required>
+        </div>
+
+        <div class="input-group">
+            <label for="phosphorous">Phosphorous Level:</label>
+            <input type="number" step="0.01" id="phosphorous" name="phosphorous" required>
+        </div>
+
+        <div class="input-group">
+            <label for="potassium">Potassium Level:</label>
+            <input type="number" step="0.01" id="potassium" name="potassium" required>
+        </div>
+
+        <div class="input-group">
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" step="0.01" id="temperature" name="temperature" required>
+        </div>
+
+        <div class="input-group">
+            <label for="humidity">Humidity (%):</label>
+            <input type="number" step="0.01" id="humidity" name="humidity" required>
+        </div>
+
+        <div class="input-group">
+            <label for="ph">pH:</label>
+            <input type="number" step="0.01" id="ph" name="ph" required>
+        </div>
+
+        <div class="input-group">
+            <label for="rainfall">Rainfall (mm):</label>
+            <input type="number" step="0.01" id="rainfall" name="rainfall" required>
+        </div>
+
+        <div class="recommended-crop">
+            <h2><b>Recommended Crop: {{y}}</h2>
+        </div>
+
+        
+        <input type="submit" value="Submit">
+    </form>
+</div>  
+
+    <div class="additional-text-box">
+        <div class="additional-text">
+            <h3>What is CropProConsult?</h3>
+            <p>CropProConsult is an advanced agricultural tool designed to provide personalized crop recommendations based on various environmental factors such as soil nutrients, temperature, humidity, and rainfall.</p>
+
+            <h3>Need for CropProConsult</h3>
+            <p>CropProConsult helps farmers make informed decisions about crop selection and management, leading to improved yields, reduced resource wastage, and increased profitability in agriculture.</p>
+        </div>
+
+        <div class="additional-footer-box">
+
+        
+            <p>Project submission by JIYA, Roll No. CO21327</p>
+       
+    </div>
+
+    </div>
+
+</body>
+</html>
+
